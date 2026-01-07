@@ -1,0 +1,62 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header p {
+  margin: 10px 0 0 0;
+  font-size: 1.2em;
+  color: #94a3b8;
+}
+
+.card {
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #475569;
+  border-radius: 4px;
+  background-color: #334155;
+  color: white;
+  font-size: 1em;
+  resize: vertical;
+}
+
+textarea::placeholder {
+  color: #94a3b8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
